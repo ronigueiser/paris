@@ -1,0 +1,668 @@
+body{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#fondo{
+    width:414px;
+    margin: 0 auto;
+
+}
+
+.eiffel{
+
+    width: 337px;
+    display: inline-block;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+
+
+}
+
+.imgtorre{
+    width: 337px;
+    margin:0;
+
+}
+
+.textorre{
+
+    width: 335px;
+    border: none;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+
+.map, h2{
+
+    padding-left: 50px;
+}
+
+
+.encabezados{
+    font-size: 25px;
+    font-family: "Century Gothic", serif;
+    color: black;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    width: 337px;
+
+}
+
+
+
+.eiffel .textmuse{
+    font-size: 15px;
+    font-family: "Century Gothic", serif;
+    padding-left: 0;
+    border-left: none;
+    margin: 0;
+    width: 355px;
+
+
+}
+
+
+.orsay{
+    display: flex;
+    width: 337px;
+    flex-direction: column;
+    padding: 50px 130px 50px 233px;
+}
+
+
+.textorsay{
+    font-family: "Century Gothic", serif;
+    font-size: 24px;
+    padding-left: 8px;
+    border-left: none;
+    width: 520px;
+}
+
+.footer{
+    background-color: #5f2525;
+    color: white;
+    font-size: 18px;
+    font-family: "Century Gothic", serif;
+    display: flex;
+    padding: 20px calc(130px);
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/Appstore.png);
+    background-repeat: no-repeat;
+    background-position: 920px 26px;
+    width: 939px;
+}
+
+
+.info{
+    background-image: url(../img/notre.jpg);
+    background-repeat: no-repeat;
+    height: 387px;
+    display: flex;
+    margin: 50px 130px;
+    width: 515px;
+}
+
+.infor{
+    display: flex;
+    width: 414px;
+}
+
+.new{
+    padding-left: 3px;
+    width: 345px;
+    margin: 0 auto;
+}
+
+.visitar{
+    width: 401px;
+    background-image:url(../img/eiffel3.jpg);
+    background-repeat: no-repeat;
+    height: 208px;
+
+
+}
+
+.nav{
+    display:flex;
+    background-color: #cbb99d;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 70px;
+    background-image:url(../img/logo1.png);
+    background-repeat: no-repeat;
+    background-position: 14px 12px;
+    padding: 0 0 0 0;
+
+
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    color:white;
+    padding-left: 50px;
+    margin: 0;
+    gap: 10px;
+    padding-top: 40px;
+
+
+}
+
+.visitar .Titulo{
+    font-family: "arial black", serif;
+    font-size: 37px;
+    color:white;
+    padding-left: 67px;
+    padding-top: 120px;
+    margin: 0;
+    font-weight: bold;
+    width: 268px;
+
+}
+
+.mapp{
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    background-position: 173px 0;
+    width: 400px;
+    height: 60px;
+
+}
+
+.menudes{
+    margin-top: 165px;
+    margin-bottom: -50px;
+    width: 400px;
+    height: 300px;
+    font-size: 17px;
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 0;
+}
+
+.menudes ul{
+    width: 200px;
+    height: 108px;
+    list-style: none;
+    background-color: #cbb99d;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    gap: 0;
+    flex-direction: column;
+    margin: 20px 0 0 90px;
+
+
+}
+
+.lista, li{
+
+}
+
+.orsay{
+    width: 400px;
+    padding: 0;
+
+}
+
+.textorsay{
+    font-size: 15px;
+    width: 335px;
+}
+
+.enccabezados{
+    font-size: 28px;
+}
+
+.info {
+    background-image: url(../img/notre1.jpg);
+    background-repeat: no-repeat;
+    height: 387px;
+    display: flex;
+    width: 414px;
+    margin: 0;
+    background-position: 105px 10px;
+
+}
+
+.mas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 46px;
+    padding-top: 50px;
+    width: 270px;
+    height: 387px;
+    margin: 0;
+}
+
+.com{
+    background-image:url(../img/logo1.png);
+    background-repeat: no-repeat;
+    background-position: 40px 20px;
+    height: 47px;
+    width: 200px;
+    margin-bottom: 8px;
+
+}
+
+.footer {
+    display:flex;
+    background-color: #5f2525;
+    align-items: center;
+    justify-content: space-between;
+    width: 395px;
+    height: 129px;
+    padding: 0 5px 0 0;
+}
+
+.footer .lista {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    gap: 18px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.terminos{
+    display: none;
+}
+
+.infor{
+    display: none;
+}
+
+.boton{
+    margin-left: 95px;
+}
+
+.portada {
+    background-image: url(../img/torre21.jpg);
+    width: 400px;
+    height: 191px;
+    margin: 0;
+}
+
+.portada .titulo {
+    font-family: "arial black", serif;
+    font-size: 22px;
+    color: white;
+    padding-left: 86px;
+    padding-top: 28px;
+    margin: 0;
+    font-weight: bold;
+    width: 240px;
+}
+
+.portada #subtitu {
+    font-family: "arial black", serif;
+    font-size: 13px;
+    color: white;
+    padding-left: 82px;
+    font-weight: bold;
+    width: 250px;
+}
+
+
+#city {
+    background-position: 186px 35px;
+    margin: 0;
+    height: 447px;
+    padding: 25px 0 0;
+}
+
+#city .torre {
+    margin-left: 0;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.citydesc h2{
+    padding-left: 0;
+}
+
+#city .citydesc p {
+    font-family: "Century Gothic", serif;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 15px 0;
+    width: 390px;
+    margin-top: 43px;
+}
+
+.turist {
+    background-image: url(../img/Louvre1.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.turist .titulo {
+    color: white;
+    font-size: 35px;
+    font-family: "Arial black", serif;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.allturist {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-position: 173px 0;
+    padding: 15px 0 0 0;
+    width: 400px;
+}
+
+.allturist .texto {
+    display: flex;
+    font-family: "Century Gothic", serif;
+    flex-direction: column;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.allturist .texto .t1 {
+    width: 400px;
+    /* margin-right: 40px; */
+    border-right: none;
+    padding-right: 0;
+}
+
+.allturist .texto .t2{
+    margin-left: 0;
+    width: 400px;
+}
+
+.vermas {
+    height: 70px;
+    width: 130px;
+    background-color: #cbb99d;
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 141px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#city .citydesc h2 {
+    font-size: 30px;
+    margin: 0;
+    font-family: "Century Gothic", serif;
+}
+
+.gastronomia {
+    background-image: url(../img/ratatuil1.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gastro {
+    color: white;
+    font-size: 39px;
+    font-family: "Arial black", serif;
+    margin: 0;
+    padding-left: 0;
+    width: 274px;
+}
+
+.food img{
+    display: none;
+}
+
+.food{
+    padding: 0 0 0 0;
+    width: 400px;
+}
+
+.food .imgdesc .texto {
+    font-family: "Century Gothic", serif;
+    font-size: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+    margin-top: 103px;
+}
+.imgdesc{
+    background-position: 174px 17px;
+}
+
+.vermass{
+    margin-bottom: 50px;
+}
+
+.event {
+    width: 400px;
+    background-image: url(../img/disney1.jpg);
+    height: 199px;
+    background-repeat: no-repeat;
+}
+
+.event .titulo {
+    font-family: "Arial black", serif;
+    color: white;
+    font-size: 45px;
+    padding-left: 103px;
+    padding-top: 73px;
+    margin: 0;
+    width: 200px;
+}
+
+.eventos .encabezados{
+    font-size: 20px;
+    font-family: "Century Gothic", serif;
+    color: black;
+    padding-top: 75px;
+    margin-bottom: 20px;
+    width: 337px;
+    padding-left: 34px;
+}
+
+.eventos {
+
+    background-position: 169px 0;
+    margin-top: 50px;
+}
+
+.lolla{
+    width: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 179px;
+}
+
+.lolla .desc {
+    font-family: "Century Gothic", serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.ver-mas {
+    height: 32px;
+    width: 70px;
+    background-color: #cbb99d;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -176px;
+    font-size: 22px;
+    font-family: "Century Gothic", serif;
+    margin-left: 169px;
+    padding-bottom: 0;
+    margin-bottom: 70px;
+}
+
+.click {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    margin-top: -90px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+}
+
+.gastro {
+    width: 400px;
+    background-image: url(../img/gastronomia1.jpg);
+    background-repeat: no-repeat;
+    height: 177px;
+}
+
+.gastro .titulo {
+    font-family: "Arial black", serif;
+    color: white;
+    font-size: 39px;
+    padding-left: 64px;
+    padding-top: 63px;
+    margin: 0;
+    width: 280px;
+}
+
+.tenedor {
+    background-image: url(../img/food.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    background-position: 175px 38px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.tenedor .encabezados{
+    font-size: 25px;
+    font-family: "Century Gothic", serif;
+    color: black;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    width: 337px;
+    padding-left: 34px;
+}
+
+.tenedor p {
+    font-family: "Century Gothic", serif;
+    font-size: 15px;
+}
+
+.segundo{
+    font-family: "Century Gothic", serif;
+    font-size: 15px;
+    width: 394px;
+    padding-left: 1px;
+
+}
+
+.recetas h3 {
+    text-align: center;
+    padding-left: 86px;
+    padding-top: 74px;
+    margin-right: 0;
+    width: 246px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.recetas{
+    width: 400px;
+}
+
+.recetas p {
+    font-family: "Century Gothic", serif;
+    font-size: 15px;
+    text-align: center;
+    width: 383px;
+    padding-left: 8px;
+}
+
+.video{
+    margin-left: 0;
+
+}
+
+.contacto {
+    width: 400px;
+    background-image: url(../img/arcontacto1.jpg);
+    background-repeat: no-repeat;
+    height: 190px;
+}
+
+.contacto .Titulo {
+    font-family: "arial black", serif;
+    font-size: 46px;
+    color: white;
+    padding-left: 85px;
+    padding-top: 52px;
+    margin: 0;
+    font-weight: bold;
+    width: 236px;
+}
+
+.enc {
+    padding-right: 0;
+    width: 278px;
+    padding-left: 35px;
+}
+
+.formulario{
+    background-image: none;
+    width: 375px;
+    padding-left: 11px;
+}
+
+.enc .encabezados{
+    padding-top: 68px;
+}
+
+#thanks{
+    width: 400px;
+
+}
+
+#thanks p {
+    padding-left: 30px;
+    padding-top: 175px;
+    width: 340px;
+}
+
+.gracias {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.videoss{
+    width:298px;
+    height:168px;
+}
