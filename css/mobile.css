@@ -2,9 +2,13 @@ body{
     width: 400px;
     margin: 0 auto;
 }
+main{
+    width: 335px;
+}
+
 
 #fondo{
-    width:414px;
+    width:400px;
     margin: 0 auto;
 
 }
@@ -60,7 +64,7 @@ body{
     padding-left: 0;
     border-left: none;
     margin: 0;
-    width: 355px;
+    width: 335px;
 
 
 }
@@ -98,14 +102,20 @@ body{
 }
 
 
-.info{
-    background-image: url(../img/notre.jpg);
+
+
+.info {
+    background-image: url(../img/notre1.jpg);
     background-repeat: no-repeat;
     height: 387px;
     display: flex;
-    margin: 50px 130px;
-    width: 515px;
+    width: 335px;
+    margin: 0;
+    background-position: 105px 10px;
+
 }
+
+
 
 .infor{
     display: flex;
@@ -113,8 +123,8 @@ body{
 }
 
 .new{
-    padding-left: 3px;
-    width: 345px;
+    padding-left: 34px;
+    width: 335px;
     margin: 0 auto;
 }
 
@@ -211,7 +221,7 @@ body{
 }
 
 .orsay{
-    width: 400px;
+    width: 335px;
     padding: 0;
 
 }
@@ -225,16 +235,7 @@ body{
     font-size: 28px;
 }
 
-.info {
-    background-image: url(../img/notre1.jpg);
-    background-repeat: no-repeat;
-    height: 387px;
-    display: flex;
-    width: 414px;
-    margin: 0;
-    background-position: 105px 10px;
 
-}
 
 .mas {
     display: flex;
@@ -262,9 +263,9 @@ body{
     background-color: #5f2525;
     align-items: center;
     justify-content: space-between;
-    width: 395px;
+    width: 400px;
     height: 129px;
-    padding: 0 5px 0 0;
+    padding: 0 0 0 0;
 }
 
 .footer .lista {
@@ -283,6 +284,8 @@ body{
 .terminos{
     display: none;
 }
+
+
 
 .infor{
     display: none;
@@ -528,7 +531,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: 360px;
     margin-top: -90px;
     padding-left: 30px;
     margin-bottom: 60px;
